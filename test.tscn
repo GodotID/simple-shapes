@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://benn8a0nqpkag"]
+
+[ext_resource type="Script" path="res://addons/simple_shapes/shapes/RectangleShape.gd" id="1_rycp8"]
+[ext_resource type="Script" path="res://addons/simple_shapes/shapes/CircleShape.gd" id="2_a6yim"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RectangleShape" type="Polygon2D" parent="."]
+position = Vector2(102, 115)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+script = ExtResource("1_rycp8")
+
+[node name="CircleShape" type="Polygon2D" parent="."]
+position = Vector2(344, 166)
+polygon = PackedVector2Array(50, 0, 40.4509, 29.3893, 15.4508, 47.5528, -15.4508, 47.5528, -40.4509, 29.3893, -50, 6.12303e-15, -40.4509, -29.3893, -15.4508, -47.5528, 15.4508, -47.5528, 40.4509, -29.3893)
+script = ExtResource("2_a6yim")
