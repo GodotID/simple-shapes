@@ -6,11 +6,12 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="RectangleShape" type="Polygon2D" parent="."]
-position = Vector2(102, 115)
+position = Vector2(184, 166)
+color = Color(0.670588, 0.670588, 0.670588, 1)
 polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
 script = ExtResource("1_rycp8")
 
 [node name="CircleShape" type="Polygon2D" parent="."]
-position = Vector2(344, 166)
+position = Vector2(279, 262)
 polygon = PackedVector2Array(50, 0, 40.4509, 29.3893, 15.4508, 47.5528, -15.4508, 47.5528, -40.4509, 29.3893, -50, 6.12303e-15, -40.4509, -29.3893, -15.4508, -47.5528, 15.4508, -47.5528, 40.4509, -29.3893)
 script = ExtResource("2_a6yim")
